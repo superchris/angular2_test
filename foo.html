@@ -1,0 +1,11 @@
+<h1> This is the {{ title }} </h1>
+
+<div>
+  Here is the {{ body }}
+  <br/>
+  <form [control-group]="form">
+    <input control="foo" />
+  </form>
+  <br/>
+  <my-thing [wut]="form.value.foo"></my-thing>
+</div>
